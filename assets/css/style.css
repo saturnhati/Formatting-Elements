@@ -9,6 +9,8 @@ body {
     background-size: 180%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 /* HEADER */
@@ -63,19 +65,51 @@ h1 {
     letter-spacing: -1px;
 }
 
-main ul {
+main ul, ol {
     margin-left: 4vh;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 article p:nth-child(2){
-    color: grey;
+    color: #9CA49F;
     margin: 4vh auto;
-    
+    font-size: 1.05rem;
+}
+
+article p {
+    margin: 18px 0;
+}
+
+strong {
+    color:#A92072;
+    font-weight: 500;
+}
+
+code {
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+h2 {
+    margin-top: 3vh;
+    margin-bottom: 0;
+}
+
+a:visited {
+    color: #0288A9;
+    font-weight: 600;
+}
+
+iframe {
+    border-radius: 20px;
 }
 
 /* TABELLE */
+
+
 
 /* FORM */
 
