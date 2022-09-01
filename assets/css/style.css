@@ -109,6 +109,44 @@ iframe {
 
 /* TABELLE */
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+
+th {
+    background: #3D67C5;
+    border: 1px solid white;
+    padding: 20px 6px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+td {
+    padding: 2vh 0;
+}
+
+tr:nth-child(odd) {
+    background-color: #F1F1F1;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+main a {
+    font-weight: 500;
+}
+
+iframe {
+    width: 100%;
+}
 
 
 /* FORM */
